@@ -4,7 +4,7 @@ public class Pasien extends Orang {
     private Integer idPasien;
 
     public Pasien(Integer idPasien, String nama) {
-        super(nama); // panggil constructor Orang
+        super(nama); 
         this.idPasien = idPasien;
     }
 
